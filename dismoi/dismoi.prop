@@ -1,0 +1,8 @@
+{
+  "modules" : { 
+    "dismoi" : {
+      "description": "donne le nombre et les items des plugs",
+      "version"    : "1.0"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "modules": { 
+    "coursesmathilde": {
+      "description": "Plugin pour la liste des coursesmathilde",
+      "version": "0.2"
+      
+    }
+  }
+}

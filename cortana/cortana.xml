@@ -1,0 +1,28 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="cortana" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="cortana" scope="public">
+    <example>Sarah réceptionne le garbage de ok google</example>
+    <tag>out.action=new Object(); </tag>
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/cortana";</tag>
+  </rule> 
+</grammar>

@@ -1,0 +1,9 @@
+{
+  "modules": { 
+    "cyrano": {
+      "description": "Plugin pour les synonymes",
+      "version": "0.2"
+      
+    }
+  }
+}

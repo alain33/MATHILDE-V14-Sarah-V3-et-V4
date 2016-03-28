@@ -1,0 +1,10 @@
+{
+  "modules" : {
+    "infomathilde"  : {
+      "name"       : "infomathilde",
+      "description": "info par mots cles",
+      "version"    : "0.1"
+     
+    }
+  }
+}

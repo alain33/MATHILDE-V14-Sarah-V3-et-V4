@@ -1,0 +1,10 @@
+﻿infomathilde
+
+donne les infos toutes les heures par affichage d'une fenetre pendant 10 secondes en rapport avec des mots clés 
+ceux ci se trouvent dans : infomathilde/info1memoire/info.json
+modifier avec les mots impotant pour vous
+
+fonctionne avec le timeout
+donc dans le infomathilde.js modifier le chiffre ligne 183 parce que vous voulez
+
+3600000 correspond à 1 heure car : 60 secondes par 60 minutes = 3600 secondes par 1000 car ont est en milli secondes

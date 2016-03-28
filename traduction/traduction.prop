@@ -1,0 +1,9 @@
+{
+  "modules": { 
+    "traduction": {
+      "description": "Plugin pour traduction",
+      "version": "0.2"
+      
+    }
+  }
+}

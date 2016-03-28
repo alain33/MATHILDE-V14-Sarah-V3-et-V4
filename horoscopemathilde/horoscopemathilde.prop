@@ -1,0 +1,9 @@
+{
+  "modules": { 
+    "horoscopemathilde": {
+      "description": "Plugin pour l'horoscope",
+      "version": "0.2",
+      "signe"	: "scorpion"
+    }
+  }
+}

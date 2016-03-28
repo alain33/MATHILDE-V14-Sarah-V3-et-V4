@@ -1,0 +1,8 @@
+{
+  "modules" : { 
+    "reveil1"  : {
+      "description": "Permet de se reveiller",
+      "version"    : "1"
+    }
+  }
+}

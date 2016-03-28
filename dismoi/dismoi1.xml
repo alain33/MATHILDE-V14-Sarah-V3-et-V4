@@ -1,0 +1,22 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="dismoi" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+<rule id="dismoi" scope="public"><example>Sarah lance google</example><tag>out.action=new Object(); </tag>
+<item>Sarah</item>
+<one-of>
+<item>dis-moi les phrases de</item>
+</one-of>
+<item repeat="0-1">
+<one-of>
+<item>cortana<tag>out.action.plugduxml="0"</tag></item>
+<item>courses<tag>out.action.plugduxml="1"</tag></item>
+<item>cyrano<tag>out.action.plugduxml="2"</tag></item>
+<item>demarrage<tag>out.action.plugduxml="3"</tag></item>
+<item>dismoi<tag>out.action.plugduxml="4"</tag></item>
+<item>jarvis<tag>out.action.plugduxml="5"</tag></item>
+<item>lectureenfant<tag>out.action.plugduxml="6"</tag></item>
+<item>memo<tag>out.action.plugduxml="7"</tag></item>
+<item>scribe<tag>out.action.plugduxml="8"</tag></item>
+<item>traduction<tag>out.action.plugduxml="9"</tag></item>
+<item>vide<tag>out.action.plugduxml="10"</tag></item>
+<item>wiki<tag>out.action.plugduxml="11"</tag></item>
+</one-of>
+</item><tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/dismoi";</tag></rule> </grammar>

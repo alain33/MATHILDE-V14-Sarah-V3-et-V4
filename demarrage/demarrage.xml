@@ -1,0 +1,34 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="demarrage" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+
+<rule id="demarrage" scope="public">
+<tag>out.action=new Object();</tag>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/demarrage";</tag>
+</rule>
+</grammar>

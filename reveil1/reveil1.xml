@@ -1,0 +1,35 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="reveil1" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+ <rule id="reveil1" scope="public">
+  	<example>Sarah met le reveil à</example>
+  	<tag>out.action=new Object(); </tag>
+
+  	<item>Sarah</item>
+
+     
+  <one-of>
+    <item>réveille-moi </item>
+     <item>réveille-moi </item>
+    <item>mets le réveil</item>
+    <item>coupe le reveille<tag>out.action.finreveil = '1';</tag></item>
+     <item>coupe le réveil<tag>out.action.finreveil = '1';</tag></item>
+    
+    
+    </one-of>
+
+  <item repeat="0-1">
+  <one-of>
+   <item>a six heure<tag>out.action.tempsreveil = '21600000';out.action.tempsreveilname = "six heure";</tag></item>
+   <item>a six heure trente<tag>out.action.tempsreveil = '23400000';out.action.tempsreveilname = "six heure trente";</tag></item>
+   <item>a sept heure<tag>out.action.tempsreveil = '25200000';out.action.tempsreveilname = "sept heure";</tag></item>
+   <item>a sept heure trente<tag>out.action.tempsreveil = '27000000';out.action.tempsreveilname = "sept heure trente";</tag></item>
+   <item>à 8h<tag>out.action.tempsreveil = '28800000';out.action.tempsreveilname = "huit heure";</tag></item>
+   <item>a huigt heure trente<tag>out.action.tempsreveil = '30600000';out.action.tempsreveilname = "huit heure trente";</tag></item>
+   <item>a vingt deux heure<tag>out.action.tempsreveil = '79920000';out.action.tempsreveilname = "22 heure";</tag></item>
+   <item>à 22h<tag>out.action.tempsreveil = '79920000';out.action.tempsreveilname = "22 heure";</tag></item>
+  </one-of>
+</item>
+
+    <tag>out.action._attributes.tts = "Ok,"</tag> 
+    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/reveil1";</tag>
+  </rule>
+</grammar>

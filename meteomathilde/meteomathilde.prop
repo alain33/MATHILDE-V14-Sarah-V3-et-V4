@@ -1,0 +1,9 @@
+{
+  "modules": { 
+    "meteomathilde": {
+      "description": "Plugin pour meteo",
+      "version": "0.2"
+      
+    }
+  }
+}

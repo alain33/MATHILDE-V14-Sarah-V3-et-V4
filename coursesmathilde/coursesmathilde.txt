@@ -1,0 +1,17 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="rulecourses" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+<rule id="rulecourses" scope="public"><example>Sarah tu es cool</example><tag>out.action=new Object(); </tag>
+<item>Sarah</item>
+<one-of>
+<item>rajoute du ketchup<tag>out.action.item="du ketchup"</tag></item>
+<item>rajoute une souris verte<tag>out.action.item="une souris verte"</tag></item>
+<item>rajoute Il était une fois<tag>out.action.item="Il était une fois"</tag></item>
+<item>rajoute un toasteur<tag>out.action.item="un toasteur";</tag></item>
+<item>enlève du ketchup<tag>out.action.item_out="du ketchup"</tag></item>
+<item>enlève une souris verte<tag>out.action.item_out="une souris verte"</tag></item>
+<item>enlève Il était une fois<tag>out.action.item_out="Il était une fois"</tag></item>
+<item>enlève un toasteur<tag>out.action.item_out="un toasteur";</tag></item>
+<item>Envoie moi la liste des courses<tag>out.action.push="liste"; </tag><tag>out.action.qui="Nicolas";</tag></item>
+<item>Donne moi la liste des courses<tag>out.action.dismoi="dismoi"; </tag></item>
+<item>Vide la liste des courses<tag>out.action.vide="vide"; </tag></item>
+<item>Supprime la liste des courses<tag>out.action.vide="vide"; </tag></item>
+</one-of><tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/courses";</tag></rule> </grammar>

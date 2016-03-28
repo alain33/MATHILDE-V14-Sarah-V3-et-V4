@@ -1,0 +1,9 @@
+{
+  "modules": { 
+    "memo": {
+      "description": "Plugin pour les mémos",
+      "version": "0.2"
+      
+    }
+  }
+}

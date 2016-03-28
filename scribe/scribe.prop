@@ -1,0 +1,25 @@
+{
+	"modules" : { 
+		"scribe"  : {
+			"description": "Utilisation de la reconnaissance vocale HTML5 (avec Chrome)",
+			"version": "14.0",
+			"port_https": 4300,
+			"autorun_browser": true,
+			"kill_browser_on_startup": true,
+			"maxReco": 10,
+			"speak_surcharge": false,
+			"pause_par_lettre": 56,
+			"pause_virgule": 500,
+			"pause_exclamation": 600,
+			"pause_interrogation": 600,
+			"pause_point_virgule": 250,
+			"pause_deux_points": 250,
+			"pause_trois_petits_points": 0,
+			"pause_point": 1250,
+			"pause_par_chiffre": 300,
+			"pause_minimale_avant_synthese":800,
+			"tests_vocaux": false
+			
+		}
+	}
+}

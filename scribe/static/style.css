@@ -1,0 +1,84 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 2em 0 0 0;
+}
+
+body {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.speech {
+  
+}
+
+.speech .confidence {
+	color: #292929;
+	text-align: center;
+	font-size: 2em;
+	font-family: Consolas, Lucida Console, monospace;
+	padding: 1em;
+}
+
+.speech .transcript {
+	padding: 0.5em;
+	font-size: 2em;
+	font-family: sans-serif;
+	color: rgba(255,255,255,1);
+	background: rgba(29,29,29,0.1);
+}
+
+.speech .transcript.final {
+	background: #292929;
+}
+
+.sarah {
+	display: inline-flex;
+	font-family: Verdana, sans-serif;
+	padding-top: 1em;
+}
+
+.sarah .name {
+	padding-top: 20px;
+	font-size: 30px;
+	min-width: 145px;
+}
+
+.say {
+	font-size: 30px;
+	font-family: Georgia, serif;
+	color: rgba(2,2,2,1);
+	padding-top: 21px;
+	background: #292929
+}
+.saying {
+	background: rgba(247, 211, 8, 0.29);
+}
+
+
+.smiley {
+	font-family: Verdana, sans-serif;
+	padding-left: 1em;
+	margin-left:-10px;
+	margin-right:20px;
+	font-size: 50px;
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+    transform: rotate(90deg);
+	white-space: nowrap;
+}
+
+.plugin {
+	color: rgba(255,255,255,1);
+	padding-top: 15px;
+	font-size: 20px;
+	font-family: Helvetica, sans-serif;
+}

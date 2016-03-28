@@ -1,0 +1,9 @@
+{
+  "modules": { 
+    "lectureenfant": {
+      "description": "Plugin pour lectureenfant",
+      "version": "0.2"
+      
+    }
+  }
+}

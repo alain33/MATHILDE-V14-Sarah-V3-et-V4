@@ -1,0 +1,19 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="rulecoursesmathilde" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+<rule id="rulecoursesmathilde" scope="public"><example>Sarah tu es cool</example><tag>out.action=new Object(); </tag>
+<item>Sarah</item>
+<one-of>
+<item>ajoute à la liste des courses gloubi-boulga<tag>out.action.item="gloubi-boulga"</tag></item>
+<item>ajoute à la liste des courses fraises<tag>out.action.item="fraises"</tag></item>
+<item>ajoute à la liste des courses haricots verts<tag>out.action.item="haricots verts"</tag></item>
+<item>ajoute à la liste des courses steaks<tag>out.action.item="steaks"</tag></item>
+<item>ajoute à la liste des courses steaks<tag>out.action.item="steaks";</tag></item>
+<item>enlève de la liste des courses gloubi-boulga<tag>out.action.item_out=" gloubi-boulga"</tag></item>
+<item>enlève de la liste des courses fraises<tag>out.action.item_out=" fraises"</tag></item>
+<item>enlève de la liste des courses haricots verts<tag>out.action.item_out=" haricots verts"</tag></item>
+<item>enlève de la liste des courses steaks<tag>out.action.item_out=" steaks"</tag></item>
+<item>enlève de la liste des courses steaks<tag>out.action.item_out="steaks";</tag></item>
+<item>Envoie-moi la liste des courses<tag>out.action.push="liste"; </tag><tag>out.action.qui="Nicolas";</tag></item>
+<item>Donne-moi la liste des courses<tag>out.action.dismoi="dismoi"; </tag></item>
+<item>Vide la liste des courses<tag>out.action.vide="vide"; </tag></item>
+<item>Supprime la liste des courses<tag>out.action.vide="vide"; </tag></item>
+</one-of><tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/coursesmathilde";</tag></rule> </grammar>

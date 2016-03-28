@@ -1,0 +1,9 @@
+{
+  "modules": { 
+    "planingmathilde": {
+      "description": "Plugin pour planingmathilde",
+      "version": "0.2"
+      
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "modules": { 
+    "wiki": {
+      "description": "Plugin pour le wiki",
+      "version": "0.2"
+      
+    }
+  }
+}

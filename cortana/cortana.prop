@@ -1,0 +1,11 @@
+{
+  "modules" : { 
+    "cortana"  : {
+      "description": "lance la reco avec ok google",
+      "version"    : "14.0",
+      "Auteur"     : "jean jeannel",
+      "Categorie"  : "Speech/reco"
+      
+    }
+  }
+}
