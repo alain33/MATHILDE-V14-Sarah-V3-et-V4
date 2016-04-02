@@ -36,6 +36,11 @@ copier l'intérieur du dossier mathilde (18 dossier) dans SARAH/PLUGIN
 si le plugin affiche des erreurs alors copier/coller le contenu (4 fichiers) du répertoire plugin/modules dans sarah/nodejs/node_modules/npm/node_modules
 normalement pas obligatoire
 
+LORS DE LA PREMIERE UTILISATION uniquement, UNE MODIF DU CUSTOM.ini(debub false) se fait automatiquement donc :
+UNE FOIS LANCER,COUPER  LE SERVEUR ET LE CLIENT,REDEMARRER ACCEPTER LES WARN(HTTPS ET MICRO) et c'est partie
+plus besoin de relancer quoique ce soit
+
+
 PRINCIPE /////////////////////////////////////
 
 détect les autres nom que SARAH : EVA , JARVIS...
